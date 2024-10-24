@@ -1,0 +1,150 @@
+<html>
+    <head>
+        <title>Enlaces en html</title>
+        <style> type*"text/css">
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            header,nav,main,footer{
+                width: 1000px;
+                color: #EEEEEE;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 45px;
+            }
+            header{
+                background-color: #201E43;
+                height: 150px;
+            }
+            nav{
+                height: 65px;
+                background-color: #134b70;
+            }
+            ul{
+                list-style-type: none;
+                text-align: center;
+            }
+            li{
+                display: inline-block;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            main{
+                height: auto;
+                background-color: #EEEEEE;
+            }
+            main nav{
+                width: 770px;
+                height: auto;
+            }
+            footer{
+                height: 50px;
+                background-color: #201E43;
+            }
+            section{
+                width: 800px;
+                background-color: #508c9b;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                padding: 30px;  
+            }
+            h2{
+                margin-bottom: 30px;
+            }
+            h1,h5{
+                text-align: center;
+                padding: 30px;
+            }
+            p{
+                margin-bottom: 20px;
+            }
+            p a:visited{
+                color: #201e43;
+            }
+            p a:link{
+                color: #EEEEEE;
+                font font-weight: bolder;
+            }
+            p a:active{
+                color: orange;
+            }
+            ul li{
+                width: 75px;
+                background-color: #EEEEEE;
+                color: #201E43;
+                padding: 10px;
+                border-radius: 10px;
+                text-decoration: none;
+            }
+            
+            ul li a{
+                text-decoration: none;
+                color: #201E43;
+            }
+            /*nav ul li a:link, nav ul li a:visited{
+                color: #508c9b;
+                font-weight: bold;     
+            }
+            /*nav ul li a:hover{
+                color: #201E43;
+            }*/
+            nav li:hover, nav li a:hover{
+                background-color: #201E43;
+                color: #EEEEEE;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>ENLACES</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Formatos</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="Listas.html">Listas</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
+                <li><a href="audios.html">Audios</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2 id="enlaces_externos">Enlaces externos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent gravida, mi sed dictum gravida, tortor augue fringilla nisi, id tempus quam sem eu turpis. Donec urna turpis, cursus sit amet elit hendrerit, placerat fringilla dui. Aliquam in ultrices neque, <a href="http://www.buap.mx"target="_blank">BUAP</a> Donec urna turpis, cursus sit amet elit hendrerit, placerat fringilla dui. <a href="https://es.wikipedia.org/wiki/Museo_Internacional_del_Barroco"target="_blank">Museo Barroco</a> Cras velitenim, fermentum eu sem egestas, dapibus molestie orci. Nulla egestas justo <a href="http://www.amazon.com">Amazon</a> ut lobortis lobortis.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet dictum massa, eu ultrices magna. Aenean scelerisque massa at nunc sagittis lobortis. Ut bibendum, ipsum porttitor fringilla mattis, metus justo imperdiet felis, vel posuere lectus mi eget elit. Cras consectetur purus egestas congue mollis. Donec ut ante sapien. Morbi.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, metus tincidunt lacinia mattis, lorem enim lacinia odio, eget imperdiet odio felis quis quam. Nam congue odio venenatis, pharetra libero feugiat, pretium tortor. Maecenas vel lacus pellentesque, dapibus mauris id, tincidunt dui. Phasellus luctus in odio dictum sodales. Praesent non vulputate felis. Nam orci purus, porttitor eu urna in, viverra lacinia ipsum. Pellentesque congue feugiat libero et gravida. Vestibulum cursus.</p>
+            </section>
+            <section>
+                <h2 id="enlaces_internos">Enlaces internos</h2>
+                <p>Lorem ipsum dolor <a href="Listas.html"
+                target="_blank">Practica Listas</a> sit amet, consectetur adipiscing elit. Praesent gravida, mi sed dictum gravida, tortor augue fringilla nisi, id tempus quam sem eu turpis. Donec urna turpis, cursus sit amet elit hendrerit, placerat fringilla dui. Aliquam in ultrices neque, <a href="../Listascss.html.pdf" download>Codigo practica listas</a> non blandit justo. Pellentesque bibendum dictum suscipit. Nulla efficitur porttitor ante, sit amet lacinia risus lobortis vel. Morbi eget libero ornare, sollicitudin enima, imperdiet ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras velit enim, fermentum eu sem egestas, dapibus molestie orci. Nulla egestas justo ut lobortis lobortis. In elit ex, mollis vitae sem.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam bibendum cursus lorem, suscipit auctor tortor auctor eu. Curabitur et efficitur enim. Sed non faucibus dolor. Proin ultricies ante a dapibus vehicula. Aliquam nec lacinia ante, non semper mi. Etiam nunc tortor, semper vitae mattis dictum, venenatis bibendum mi. Integer vel elit lorem. Quisque sed mollis orci, eu rhoncus nibh. Proin.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum lacus ligula, a lobortis justo tempus eu. Donec tristique at tortor nec porta. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas in justo lacus. Nullam tempor pulvinar eros, ut tristique arcu pharetra eu. Ut eget dolor et tellus consequat fringilla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut eu sodales sem, sed tristique nunc. Vivamus vehicula, dolor quis.</p>
+            </section>
+            <section>
+                <h2 id="enlaces_pagina">Enlaces de pagina</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum lacus ligula, a lobortis justo tempus eu. Donec tristique at tortor nec porta. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas in justo lacus. Nullam tempor pulvinar eros, ut tristique arcu pharetra eu. Ut eget dolor et tellus consequat fringilla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut eu sodales sem, sed tristique nunc. Vivamus vehicula, dolor quis.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultricies porta lorem in pulvinar. Mauris cursus bibendum fringilla. Donec vitae nunc sollicitudin, auctor mauris eget, posuere sem. Vivamus luctus nisl id tristique vulputate. Nulla cursus tempus eros, et tempor nulla pellentesque quis. Ut hendrerit massa euismod consectetur tempor. Vestibulum vel purus non diam efficitur accumsan. Morbi id aliquet ligula. Suspendisse eu urna turpis. Duis ut suscipit lectus, et hendrerit orci. Sed at porttitor nisi, finibus condimentum turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis egestas sapien, a luctus mi efficitur eu. Quisque ornare, leo a congue commodo, ligula arcu hendrerit ante, quis suscipit urna felis nec mi. Nullam nisi ante, accumsan vitae tempus eu, dapibus ac lacus.</p>
+                <p>Cras lobortis maximus tempus. Maecenas vel sollicitudin metus. Sed tincidunt, tellus sed luctus posuere, ligula erat commodo libero, et luctus massa enim nec dui. Integer eleifend velit lacus, ut fermentum arcu laoreet eget. Mauris mauris neque, auctor nec ultrices vel, varius vel felis. Ut arcu erat, vestibulum non lacinia et, ullamcorper eget dolor. Sed volutpat massa est, at hendrerit risus vehicula eu.</p>
+            </section>
+            <nav>
+                <ul>
+                    <li><a href="#enlaces_externos">Enlaces externos</a></li>
+                    <li><a href="#enlaces_internos">Enlaces internos</a></li>
+                    <li><a href="#enlaces_pagina">Enlaces de pagina</a></li>
+                </ul>
+            </nav>
+        </main>
+        <footer>
+            <h5>Elaborado por Jennifer Patricia Quintanilla Mendoza</h5>
+        </footer>
+    </body>
+</html>

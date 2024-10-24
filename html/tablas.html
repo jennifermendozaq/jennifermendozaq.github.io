@@ -1,0 +1,336 @@
+<html>
+    <head>
+        <title>Tablas en html</title>
+        <link rel="stylesheet" href="../css/style_page.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1>TABLAS EN HTML</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Formatos</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="Listas.html">Listas</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
+                <li><a href="audios.html">Audios</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Tabla simple con separación de celda</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed congue nisl, sed porttitor quam. Cras gravida dolor a ligula consectetur, ut placerat mi ultrices. Integer vestibulum justo at velit facilisis, quis sodales odio maximus. Praesent vehicula, augue quis varius sagittis, dui ipsum pharetra velit, quis scelerisque sem odio non lacus. Integer pulvinar aliquam porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed congue nisl, sed porttitor quam. Cras gravida dolor a ligula consectetur, ut placerat mi ultrices.</p>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno</th>
+                            <th>Telefono</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Jennifer Patricia</td>
+                            <td>Quintanilla</td>
+                            <td>Mendoza</td>
+                            <td>833-3898804</td>
+                            <td>jennyquintanilla202@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Isis</td>
+                            <td>Rivera</td>
+                            <td>Córdova</td>
+                            <td>833-4448680</td>
+                            <td>rivera.cordova,isis@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Francisco Gerardo</td>
+                            <td>Chong</td>
+                            <td>Medellin</td>
+                            <td>833-3326011</td>
+                            <td>gerardochongm@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Raul Antonio</td>
+                            <td>Salguero</td>
+                            <td>May</td>
+                            <td>833-1535864</td>
+                            <td>salguero.may.raul1avl@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Hector Raul</td>
+                            <td>López</td>
+                            <td>Peréz</td>
+                            <td>833-3128728</td>
+                            <td>Hectorraullopezperez@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Hector Miguel</td>
+                            <td>Hernández</td>
+                            <td>Hernández</td>
+                            <td>771-3331492</td>
+                            <td>hectormig308@gmail.com</td>
+                        </tr>
+                        
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+            <section>
+                <h2>Tabla modificada por clase y con uso de coldspan</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed congue nisl, sed porttitor quam. Cras gravida dolor a ligula consectetur, ut placerat mi ultrices. Integer vestibulum justo at velit facilisis, quis sodales odio maximus. Praesent vehicula, augue quis varius sagittis, dui ipsum pharetra velit, quis scelerisque sem odio non lacus. Integer pulvinar aliquam porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed congue nisl, sed porttitor quam. Cras gravida dolor a ligula consectetur, ut placerat mi ultrices.</p>
+                <table border="1" id="" class="tabla1">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno</th>
+                            <th colspan="2">Telefono</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Jennifer Patricia</td>
+                            <td>Quintanilla</td>
+                            <td>Mendoza</td>
+                            <td>544-6546754</td>
+                            <td>833-3898804</td>
+                            <td>jennyquintanilla202@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Isis</td>
+                            <td>Rivera</td>
+                            <td>Córdova</td>
+                            <td>833-4448680</td>
+                            <td>876-6548990</td>
+                            <td>rivera.cordova,isis@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Francisco Gerardo</td>
+                            <td>Chong</td>
+                            <td>Medellin</td>
+                            <td>833-3326011</td>
+                            <td></td>
+                            <td>gerardochongm@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Raul Antonio</td>
+                            <td>Salguero</td>
+                            <td>May</td>
+                            <td>833-1535864</td>
+                            <td>833-5431232</td>
+                            <td>salguero.may.raul1avl@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Hector Raul</td>
+                            <td>López</td>
+                            <td>Peréz</td>
+                            <td>833-3128728</td>
+                            <td></td>
+                            <td>Hectorraullopezperez@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Hector Miguel</td>
+                            <td>Hernández</td>
+                            <td>Hernández</td>
+                            <td>771-3331492</td>
+                            <td>771-6759809</td>
+                            <td>hectormig308@gmail.com</td>
+                        </tr>
+                        
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+            <section>
+                <h2>Tabla Zebra</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed congue nisl, sed porttitor quam. Cras gravida dolor a ligula consectetur, ut placerat mi ultrices. Integer vestibulum justo at velit facilisis, quis sodales odio maximus. Praesent vehicula, augue quis varius sagittis, dui ipsum pharetra velit, quis scelerisque sem odio non lacus. Integer pulvinar aliquam porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed congue nisl, sed porttitor quam. Cras gravida dolor a ligula consectetur, ut placerat mi ultrices.</p>
+                <table border="1" id="tabla2">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno</th>
+                            <th>Telefono</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Jennifer Patricia</td>××
+                            <td>Quintanilla</td>
+                            <td>Mendoza</td>
+                            <td>833-3898804</td>
+                            <td>jennyquintanilla202@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Isis</td>
+                            <td>Rivera</td>
+                            <td>Córdova</td>
+                            <td>833-4448680</td>
+                            <td>rivera.cordova,isis@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Francisco Gerardo</td>
+                            <td>Chong</td>
+                            <td>Medellin</td>
+                            <td>833-3326011</td>
+                            <td>gerardochongm@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Raul Antonio</td>
+                            <td>Salguero</td>
+                            <td>May</td>
+                            <td>833-1535864</td>
+                            <td>salguero.may.raul1avl@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Hector Raul</td>
+                            <td>López</td>
+                            <td>Peréz</td>
+                            <td>833-3128728</td>
+                            <td>Hectorraullopezperez@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Hector Miguel</td>
+                            <td>Hernández</td>
+                            <td>Hernández</td>
+                            <td>771-3331492</td>
+                            <td>hectormig308@gmail.com</td>
+                        </tr>
+                        
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+            <section>
+                <h2>Tabla Hover</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed congue nisl, sed porttitor quam. Cras gravida dolor a ligula consectetur, ut placerat mi ultrices. Integer vestibulum justo at velit facilisis, quis sodales odio maximus. Praesent vehicula, augue quis varius sagittis, dui ipsum pharetra velit, quis scelerisque sem odio non lacus. Integer pulvinar aliquam porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed congue nisl, sed porttitor quam. Cras gravida dolor a ligula consectetur, ut placerat mi ultrices.</p>
+                <table border="1" id="tabla3">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno</th>
+                            <th>Telefono</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Jennifer Patricia</td>××
+                            <td>Quintanilla</td>
+                            <td>Mendoza</td>
+                            <td>833-3898804</td>
+                            <td>jennyquintanilla202@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Isis</td>
+                            <td>Rivera</td>
+                            <td>Córdova</td>
+                            <td>833-4448680</td>
+                            <td>rivera.cordova,isis@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Francisco Gerardo</td>
+                            <td>Chong</td>
+                            <td>Medellin</td>
+                            <td>833-3326011</td>
+                            <td>gerardochongm@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Raul Antonio</td>
+                            <td>Salguero</td>
+                            <td>May</td>
+                            <td>833-1535864</td>
+                            <td>salguero.may.raul1avl@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Hector Raul</td>
+                            <td>López</td>
+                            <td>Peréz</td>
+                            <td>833-3128728</td>
+                            <td>Hectorraullopezperez@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Hector Miguel</td>
+                            <td>Hernández</td>
+                            <td>Hernández</td>
+                            <td>771-3331492</td>
+                            <td>hectormig308@gmail.com</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+            <section style="overflow-x: auto">
+                <h2>Tabla con overflow</h2>
+                <table border="1" id="tabla1" class="tabla1">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno</th>
+                            <th>Telefono</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Jennifer Patricia</td>××
+                            <td>Quintanilla</td>
+                            <td>Mendoza</td>
+                            <td>833-3898804</td>
+                            <td>jennyquintanilla202@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Isis</td>
+                            <td>Rivera</td>
+                            <td>Córdova</td>
+                            <td>833-4448680</td>
+                            <td>rivera.cordova,isis@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Francisco Gerardo</td>
+                            <td>Chong</td>
+                            <td>Medellin</td>
+                            <td>833-3326011</td>
+                            <td>gerardochongm@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Raul Antonio</td>
+                            <td>Salguero</td>
+                            <td>May</td>
+                            <td>833-1535864</td>
+                            <td>salguero.may.raul1avl@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Hector Raul</td>
+                            <td>López</td>
+                            <td>Peréz</td>
+                            <td>833-3128728</td>
+                            <td>Hectorraullopezperez@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Hector Miguel</td>
+                            <td>Hernández</td>
+                            <td>Hernández</td>
+                            <td>771-3331492</td>
+                            <td>hectormig308@gmail.com</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+        </main>
+        <footer>
+            <h5>Elaborado por Jennifer Patricia Quintanilla Mendoza</h5>
+        </footer>
+    </body>
+</html>
