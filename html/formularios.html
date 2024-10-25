@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios en hmtl</title>
+<link href="../css/style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>FORMULARIOS EN HTML</h1>
+</header>
+<nav>
+  <ul>
+    <li><a href="../index.html">Formatos</a>
+      <li><a href="enlaces.html">Enlaces</a></li>
+      <li><a href="Listas.html">Listas</a></li>
+      <li><a href="tablas.html">Tablas</a></li>
+      <li><a href="imagenes.html">Imagenes</a></li>
+      <li><a href="audios.html">Audios</a></li>
+      <li><a href="videos.html">Videos</a></li>
+      <li><a href="formularios.html">Formularios</a></li>
+    </li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Formulario de ingreso</h2>
+    <p>Se realizó un formulario básico que consta de ingresar el nombre de usuario y su debida contraseña, este tipo de formulario es mayormente utilizado para ingresar a una página web.</p>
+    <form action="../index.html" method="get" name="form1" id="form1">
+      <label for="usuario">Usuario:</label>
+      <input name="usuario" type="text" id="usuario" maxlength="30">
+      <label for="password">Contraseña:</label>
+      <input name="password" type="password" id="password" maxlength="6">
+      <input type="submit" name="submit" id="submit" value="Enviar">
+    </form>
+  </section>
+<section>
+    <h2>Formulario con el elemento "select"</h2>
+    <p>Este es un Formulario para conocer acerca de los gustos musicales preferidos de los usuarios, se solicitaron datos primordiales como (nombre, apellidos, edad, país de origen y género).</p>
+    <form action="../index.html" id="form2" name="form2" method="get">
+      
+      <label for="apellidos">Nombre:</label>
+      <input type="text" name="nombre" id="nombre">
+      <label for="nombre">Apellidos:</label>
+      <input type="text" name="apellidos" id="apellidos">
+      <label for="edad">Edad:</label>
+      <input name="edad" type="number" id="edad" max="100" min="18">
+      <label for="select">Pais:</label>
+      <select name="select" id="select">
+        <option value="argentina">ARGENTINA</option>
+        <option value="bolivia">BOLIVIA</option>
+        <option value="colombia">COLOMBIA</option>
+        <option value="méxico">MÉXICO</option>
+        <option value="italia">ITALIA</option>
+        <option value="francia">FRANCIA</option>
+        <option value="noruega">NORUEGA</option>
+      </select>
+      <label>Genero:&nbsp;</label>
+      <p>
+        <label>
+          <input type="radio" name="Genero" value="masculino" id="Genero_0">
+          MASCULINO</label>
+        <label>
+          <input type="radio" name="Genero" value="femenino" id="Genero_1">
+          FEMENINO</label>
+        <br>
+      </p>
+      <label>Genero musical que prefieres:&nbsp;</label>
+      <p>
+        <label>
+          <input type="checkbox" name="musica" value="pop" id="musica_0">
+        POP</label>
+        
+        <label>
+          <input type="checkbox" name="musica" value="rock" id="musica_1">
+          ROCK</label>
+        
+        <label>
+          <input type="checkbox" name="musica" value="jazz" id="musica_2">
+          JAZZ</label>
+        
+        <label>
+          <input type="checkbox" name="musica" value="alternativa" id="musica_3">
+          ALTERNATIVA</label>
+        
+        <label>
+          <input type="checkbox" name="musica" value="clasica" id="musica_4">
+          CLASICA</label>
+        <br>
+      </p>
+      <input type="submit" name="submit2" id="submit2" value="Enviar">
+      
+      
+      
+    </form>
+</section>
+<section>
+  <h2>Formulario mixto</h2>
+  <p>Aquí se realizó un formulario pequeño de 10 preguntas, para poder postularte como practicante y/o trabajador en un área específica dentro de la empresa “fiverr”</p>
+  <form action="../index.html" id="form3" name="form3" method="get">
+    <input type="image" name="imageField" id="imageField" src="../IMG/logo.png">
+    <label for="textfield">Nombres:</label>
+    <input type="text" name="textfield" id="textfield">
+    <label for="textfield2">Apellidos:</label>
+    <input type="text" name="textfield2" id="textfield2">
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email">
+    <label for="tel">Número telefonico:</label>
+    <input type="tel" name="tel" id="tel">
+    <label for="select2">País de origen:</label>
+    <select name="select2" id="select2">
+      <option value="méxico">MÉXICO</option>
+      <option value="colombia">COLOMBIA</option>
+      <option value="argentina">ARGENTINA</option>
+      <option value="francia">FRANCIA</option>
+      <option value="españa">ESPAÑA</option>
+      <option value="alemania">ALEMANIA</option>
+      <option value="perú">PERÚ</option>
+    </select>
+	<label class="genero">Genero:&nbsp;</label>
+      <p>
+        <label>
+          <input type="radio" name="Genero" value="masculino" id="Genero">
+          Masculino</label>
+        <label>
+          <input type="radio" name="Genero" value="femenino" id="Genero_">
+          Femenino</label>
+        <br>
+      </p>
+	  <form action="/send/" method="get" id="fecha">
+  		<label class="label2">Fecha y hora a día de hoy:&nbsp; &nbsp;</label>
+	<input name="datetime" type="datetime-local" id="datetime" max="2024-11-23T11:00"
+         min="2024-03-23T11:00" step="3600" value="2024-07-23T11:00">
+	  <form method="post" action="/send/" enctype="multipart/form-data">
+  <label id="label3">Sube tu curriculum aquí:&nbsp;<br>
+  </label>
+  <input name="archivo" type="file" id="archivo">
+  <label for="range" id="label4">Elige un precio a ganar:&nbsp; &nbsp;</label>
+  	<input name="range" type="range" id="range" max="3000" min="500" autocomplete="off">
+  	<label for="textarea" id="label5">Escribe aquí tus opiniones:</label>
+    <textarea name="textarea" id="textarea"></textarea>
+<input type="submit" name="submit3" id="submit3" value="Enviar">
+    </form>
+</section>
+</main>
+<footer>
+  <h5>Elaborado por Jennifer Patriciia Quintanilla Mendoza</h5>
+</footer>
+</body>
+</html>

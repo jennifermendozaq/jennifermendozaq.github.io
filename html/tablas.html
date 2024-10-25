@@ -1,0 +1,323 @@
+<html>
+    <head>
+        <title>Tablas en html</title>
+        <link rel="stylesheet" href="../css/style_page.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1>TABLAS EN HTML</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Formatos</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="Listas.html">Listas</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
+                <li><a href="audios.html">Audios</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Tabla simple con separación de celda <mark>"Datos de mis amigos"</mark></h2>
+                <p>Estos son ciertos datos de personas que realmente considero mis amigos, nos conocemos desde hace 7 años, y hoy en día seguimos siendo todos amigos.</p>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno</th>
+                            <th>Teléfono</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Hanny Yaneiri</td>
+                            <td>Fuentes</td>
+                            <td>Hernández</td>
+                            <td>771-1807116</td>
+                            <td>hannyfuentes18@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Isis</td>
+                            <td>Rivera</td>
+                            <td>Córdova</td>
+                            <td>833-4448680</td>
+                            <td>rivera.cordova.isis@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Francisco Gerardo</td>
+                            <td>Chong</td>
+                            <td>Medellin</td>
+                            <td>833-3326011</td>
+                            <td>gerardochongm@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Raul Antonio</td>
+                            <td>Salguero</td>
+                            <td>May</td>
+                            <td>833-1535864</td>
+                            <td>salguero.may.raul1avl@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Hector Raul</td>
+                            <td>López</td>
+                            <td>Peréz</td>
+                            <td>833-3128728</td>
+                            <td>Hectorraullopezperez@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Hector Miguel</td>
+                            <td>Hernández</td>
+                            <td>Hernández</td>
+                            <td>771-3331492</td>
+                            <td>hectormig308@gmail.com</td>
+                        </tr>
+                        
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+            <section>
+                <h2>Tabla modificada por clase y con uso de coldspan <mark>"Datos familiares"</mark></h2>
+                <p>Estos son algunos de los datos de mi familia, siempre los tengo presente y procuro estar en contacto seguido para no perder conexión con ellos.</p>
+                <table border="1" id="" class="tabla1">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno</th>
+                            <th colspan="2">Teléfono</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Jennifer Patricia</td>
+                            <td>Quintanilla</td>
+                            <td>Mendoza</td>
+                            <td>833-6546754</td>
+                            <td>833-3898804</td>
+                            <td>jennyquintanilla202@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Jesus Rey</td>
+                            <td>Quintanilla</td>
+                            <td>Mendoza</td>
+                            <td>833-4238680</td>
+                            <td>833-6548990</td>
+                            <td>quintanillamjesus@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Patricia</td>
+                            <td>Mendoza</td>
+                            <td>Gómez</td>
+                            <td>833-5023678</td>
+                            <td></td>
+                            <td>patriciamendozag@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Jesús</td>
+                            <td>Quintanilla</td>
+                            <td>Azuara</td>
+                            <td>833-1865564</td>
+                            <td>833-5479032</td>
+                            <td>jesusquintanilla@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Eneyda Araceli</td>
+                            <td>Ramírez</td>
+                            <td>Mendoza</td>
+                            <td>833-2461928</td>
+                            <td></td>
+                            <td>neymendoza91@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Angie Irasema</td>
+                            <td>Ramírez</td>
+                            <td>Mendoza</td>
+                            <td>833-1318672</td>
+                            <td>833-3325012</td>
+                            <td>angieramírezm@gmail.com</td>
+                        </tr>
+                        
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+            <section>
+                <h2>Tabla Zebra <mark>"Datos de amistades de la BUAP"</mark></h2>
+                <p>En el transcurso de este intercambio académico que me encuentro realizando en la ciudad de Puebla, he conocido a muchas personitas que se han convertido en grandes amigos.</p>
+                <table border="1" id="tabla2">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno</th>
+                            <th>Teléfono</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Hanny Yaneiri</td>
+                            <td>Fuentes</td>
+                            <td>Hernández</td>
+                            <td>771-1807116</td>
+                            <td>hannyfuentes18@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Leila Yamile</td>
+                            <td>Gutiérrez</td>
+                            <td>Jasso</td>
+                            <td>833-3905984</td>
+                            <td>leilajasso203@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Paul</td>
+                            <td>Rodriguez</td>
+                            <td>Mejia</td>
+                            <td>222-4719781</td>
+                            <td>rodriguez.paul1@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Ivan</td>
+                            <td>Sánchez</td>
+                            <td>Hernández</td>
+                            <td>222-3423566</td>
+                            <td>ivansanchezh@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Lisa</td>
+                            <td>Brüstle</td>
+                            <td></td>
+                            <td>176-47746778</td>
+                            <td>lisabrüstle@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Erick Apolinar</td>
+                            <td>Lugo</td>
+                            <td>Bautista</td>
+                            <td>834-2706655</td>
+                            <td>lugobautistaerick@gmail.com</td>
+                        </tr>
+                        
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+            <section>
+                <h2>Tabla Hover <mark>"Datos de empresas de restaurantes favoritos"</mark></h2>
+                <p>Algunos restaurantes de comida rápida que suelo frecuentar más son estos de aquí, me gusta mucho salir a comer con mis amigos o familia, y que mejor que a este tipo de lugares donde a parte de que la comida está muy rica, el ambiente es familiar y divertido.</p>
+                <table border="1" id="tabla3">
+                    <thead>
+                        <tr>
+                            <th>Empresa</th>
+                            <th>Abreviatura</th>
+                            <th>Teléfono</th>
+                            <th>Dirección</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Burguer King</td>
+                            <td>"BK"</td>
+                            <td>833-2271710</td>
+                            <td>Av. Miguel Hidalgo 7102, Laguna de la Herradura, 89219 Tampico, Tamps.</td>
+                        </tr>
+                        <tr>
+                            <td>Domino's Pizza</td>
+                            <td></td>
+                            <td>833-2192210</td>
+                            <td>Laguna de Altamira 319, Zona Centro, 89000 Tampico, Tamps.</td>
+                        </tr>
+                        <tr>
+                            <td>Kentucky Fried Chicken</td>
+                            <td>"KFC"</td>
+                            <td>833-2008342</td>
+                            <td>Cap. Emilio Carranza 605, Zona Centro, 89000 Tampico, Tamps.</td>
+                        </tr>
+                        <tr>
+                            <td>McDonald's</td>
+                            <td>"Mc"</td>
+                            <td>800-3003435</td>
+                            <td>Av. Ejército Mexicano 713, Tampico, 89120 Tampico, Tamps.</td>
+                        </tr>
+                        <tr>
+                            <td>Little Caesars Pizza</td>
+                            <td>"LCE"</td>
+                            <td>833-2139060</td>
+                            <td>Avenida Ejército Mexicano 801 Plaza Covadonga Local A1, Congregación Hidalgo, 89000 Tampico</td>
+                        </tr>
+                        <tr>
+                            <td>P.F. Chang's</td>
+                            <td>"P.F."</td>
+                            <td>833-6883747</td>
+                            <td>Plaza Altama, Av. Ejército Mexicano 706-Local 3005-3008, Colonias Primavera, 87090 Tampico, Tamps.</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+            <section style="overflow-x: auto">
+                <h2>Tabla con overflow <mark>"Animales favoritos y sus características"</mark></h2>
+				<p>Considero que estos son algunos de mis animales favoritos, realmente siempre he sido gran amante de los perritos y gatitos, pero los demás animales me transmiten muy bonita energía y cada que tengo la oportunidad de ver a algunos como los lobos y los capibaras; me sorprendo bastante.</p>
+                <table border="1" id="tabla1" class="tabla1">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Nombre científico</th>
+                            <th>Pequeña descripción</th>
+                            <th>Promedio de vida</th>
+                            <th>Habitad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Perro</td>
+                            <td>Canis lupus familiaris</td>
+                            <td>mamíferos domésticos de la familia de los cánidos, con características físicas y comportamentales.</td>
+                            <td>10–13 años</td>
+                            <td>No existen límites para definir un hábitat</td>
+                        </tr>
+                        <tr>
+                            <td>Gato doméstico</td>
+                            <td>Felis catus</td>
+                            <td>Es un animal mamífero porque nace vivo de la madre y mama para alimentarse.</td>
+                            <td>13–20 años (Domesticado)</td>
+                            <td>Debe ser un hábitat que cumpla con sus necesidades completas</td>
+                        </tr>
+                        <tr>
+                            <td>Tortuga de agua</td>
+                            <td>Trachemys scripta</td>
+                            <td>Las tortugas o quelonios son un grupo de reptiles de hábitat acuático y terrestre. Su principal característica es poseer un fuerte caparazón.</td>
+                            <td>30 años (En libertad)</td>
+                            <td>Habitan los océanos o de pequeños pozos y lagos.</td>
+                        </tr>
+                        <tr>
+                            <td>Capibara</td>
+                            <td>Hydrochoerus hydrochaeris</td>
+                            <td>El capibara también llamado carpincho es el roedor más grande del mundo.</td>
+                            <td>8-10 años (vida silvestre)</td>
+                            <td>Áreas de vegetación densa alrededor de estanques, lagos, ríos, arroyos y pantanos.</td>
+                        </tr>
+                        <tr>
+                            <td>Lobo</td>
+                            <td>Canis lupus</td>
+                            <td>El lobo es una especie de mamífero placentario del orden de los carnívoros.</td>
+                            <td>16 años (Macho, En cautiverio), 14 años (Hembra, En libertad)</td>
+                            <td>Rusia, China, Kazajistán, Nepal y Mongolia son países con gran presencia de subespecies de lobos.</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+        </main>
+        <footer>
+            <h5>Elaborado por Jennifer Patricia Quintanilla Mendoza</h5>
+        </footer>
+    </body>
+</html>
